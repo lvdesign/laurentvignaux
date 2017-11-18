@@ -1,0 +1,24 @@
+{
+  "name": "laurentvignaux",
+  "version": "1.0.0",
+  "description": "site portfolio",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvdesign/laurentvignaux.git"
+  },
+  "author": "lvdesign",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lvdesign/laurentvignaux/issues"
+  },
+  "homepage": "https://github.com/lvdesign/laurentvignaux#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
