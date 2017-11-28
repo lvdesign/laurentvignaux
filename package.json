@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/lvdesign/laurentvignaux#readme",
   "devDependencies": {
+    "instafeed.js": "^1.4.1",
     "lite-server": "^2.3.0"
   }
 }
