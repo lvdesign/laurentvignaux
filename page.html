@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Ma Page </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,7 +21,9 @@
 
         <!-- Add your site or application content here -->
         <p>Hello world! This is HTML5 Boilerplate.</p>
-        <p><a href="page.html">Ma page</a></p>
+        <p><a href="index.html">Home</a></p>
+
+        
        
        
         <div id="instafeed"></div>
@@ -38,17 +40,18 @@
 
         <script type="text/javascript">
         //e7c4f35ba1004316a0e2f21487d0f7b2
-            
-            var feedbase = new Instafeed({
+            var feed = new Instafeed({
                 userId: '2112923378',
                 accessToken:'2112923378.1677ed0.36bc9d9d75ce4c65b5b4636b511ef64c',
                 clientId: 'e7c4f35ba1004316a0e2f21487d0f7b2',
                 get: 'user',
-                tagName: 'lv2018',
+                tagName: 'lvdesignfr',
                 sortBy: 'most-recent',
                 template: '<a href="{{link}}"><img src="{{image}}" /></a>'
             });
-            feedbase.run();
+            feed.run();
+
+            
         </script>
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
