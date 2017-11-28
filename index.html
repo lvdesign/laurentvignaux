@@ -21,6 +21,8 @@
 
         <!-- Add your site or application content here -->
         <p>Hello world! This is HTML5 Boilerplate.</p>
+
+        <div id="instafeedbase"></div>
        
        
         <div id="instafeed"></div>
@@ -47,6 +49,17 @@
                 template: '<a href="{{link}}"><img src="{{image}}" /></a>'
             });
             feed.run();
+
+            var feedbase = new Instafeed({
+                userId: '2112923378',
+                accessToken:'2112923378.1677ed0.36bc9d9d75ce4c65b5b4636b511ef64c',
+                clientId: 'e7c4f35ba1004316a0e2f21487d0f7b2',
+                get: 'user',
+                tagName: 'lv2018',
+                sortBy: 'most-recent',
+                template: '<a href="{{link}}"><img src="{{image}}" /></a>'
+            });
+            feedbase.run();
         </script>
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
