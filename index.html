@@ -46,6 +46,9 @@
                 get: 'user',
                 tagName: 'lv2018',
                 sortBy: 'most-recent',
+                filter: function(image) {
+            return image.tags.indexOf('lv2018') >= 0;
+        },
                 template: '<a href="{{link}}"><img src="{{image}}" /></a>'
             });
             feedbase.run();
