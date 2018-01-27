@@ -15,13 +15,13 @@
 
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-  'laurentvignaux/',
-  'laurentvignaux/css/main.css',
-  'laurentvignaux/css/normalize.css',
-  'laurentvignaux/js/instafeed.min.js',
-  'laurentvignaux/js/main.js',
-  'laurentvignaux/img/lvdesign.png',
-  'laurentvignaux/page.html'
+  '/laurentvignaux/',
+  '/laurentvignaux/css/main.css',
+  '/laurentvignaux/css/normalize.css',
+  '/laurentvignaux/js/instafeed.min.js',
+  '/laurentvignaux/js/main.js',
+  '/laurentvignaux/img/lvdesign.png',
+  '/laurentvignaux/page.html'
 ];
 
 self.addEventListener('install', function(event) {
