@@ -15,13 +15,13 @@
 
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-  '/',
-  '/css/main.css',
-  '/css/normalize.css',
-  '/js/instafeed.min.js',
-  '/js/main.js',
-  '/img/lvdesign.png',
-  '/page.html'
+  'laurentvignaux/',
+  'laurentvignaux/css/main.css',
+  'laurentvignaux/css/normalize.css',
+  'laurentvignaux/js/instafeed.min.js',
+  'laurentvignaux/js/main.js',
+  'laurentvignaux/img/lvdesign.png',
+  'laurentvignaux/page.html'
 ];
 
 self.addEventListener('install', function(event) {
